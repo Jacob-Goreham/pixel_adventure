@@ -8,6 +8,6 @@ class CollisionBlock extends PositionComponent {
     size,
     this.isPlatform = false,
   }) : super(position: position, size: size) {
-    debugMode = true; // Enable debug mode for visual feedback
+    // debugMode = true;
   }
 }
